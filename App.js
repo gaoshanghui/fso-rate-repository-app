@@ -5,7 +5,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>{`Hello, React Native!\nThis is amazing!`}</Text>
+      <Text>I can see the app on my iPhone 12 Pro Max!</Text>
       <StatusBar style="auto" />
     </View>
   );
